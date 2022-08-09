@@ -10,7 +10,7 @@ const EducationItem = ({ id, educationItem, onChange, onDelete }) => {
         onChange={(e) => onChange(e, id)}
         type="text"
         name="universityName"
-        placeholder="University name"
+        placeholder="College/University Name"
         value={educationItem.universityName}
       />
       <Input
@@ -24,7 +24,7 @@ const EducationItem = ({ id, educationItem, onChange, onDelete }) => {
         onChange={(e) => onChange(e, id)}
         type="text"
         name="degree"
-        placeholder="Degree"
+        placeholder="Degree Type"
         value={educationItem.degree}
       />
       <Input
@@ -38,14 +38,14 @@ const EducationItem = ({ id, educationItem, onChange, onDelete }) => {
         onChange={(e) => onChange(e, id)}
         type="text"
         name="from"
-        placeholder="From"
+        placeholder="Start Date"
         value={educationItem.from}
       />
       <Input
         onChange={(e) => onChange(e, id)}
         type="text"
         name="to"
-        placeholder="To"
+        placeholder="End Date"
         value={educationItem.to}
       />
       <TextArea

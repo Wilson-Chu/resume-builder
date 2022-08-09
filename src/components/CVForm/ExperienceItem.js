@@ -10,14 +10,14 @@ const ExperienceItem = ({ id, experienceItem, onChange, onDelete }) => {
         onChange={(e) => onChange(e, id)}
         type="text"
         name="position"
-        placeholder="Position"
+        placeholder="Position Title"
         value={experienceItem.position}
       />
       <Input
         onChange={(e) => onChange(e, id)}
         type="text"
         name="company"
-        placeholder="Company"
+        placeholder="Company Name"
         value={experienceItem.company}
       />
       <Input
@@ -31,14 +31,14 @@ const ExperienceItem = ({ id, experienceItem, onChange, onDelete }) => {
         onChange={(e) => onChange(e, id)}
         type="text"
         name="from"
-        placeholder="From"
+        placeholder="Start Date"
         value={experienceItem.from}
       />
       <Input
         onChange={(e) => onChange(e, id)}
         type="text"
         name="to"
-        placeholder="To"
+        placeholder="End Date"
         value={experienceItem.to}
       />
       <TextArea
