@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "../Utils/Input";
+import TextArea from "../Utils/TextArea";
 import Button from "../Utils/Button";
 
 const ExperienceItem = ({ id, experienceItem, onChange, onDelete }) => {
@@ -23,7 +24,7 @@ const ExperienceItem = ({ id, experienceItem, onChange, onDelete }) => {
         onChange={(e) => onChange(e, id)}
         type="text"
         name="city"
-        placeholder="City"
+        placeholder="City, Province"
         value={experienceItem.city}
       />
       <Input
@@ -39,6 +40,13 @@ const ExperienceItem = ({ id, experienceItem, onChange, onDelete }) => {
         name="to"
         placeholder="To"
         value={experienceItem.to}
+      />
+      <TextArea
+        onChange={(e) => onChange(e, id)}
+        type="text"
+        name="description"
+        placeholder="Description"
+        value={experienceItem.description}
       />
       <Button text="Delete" onClick={() => onDelete(id)}></Button>
     </>

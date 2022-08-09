@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "../Utils/Input";
+import TextArea from "../Utils/TextArea";
 import Button from "../Utils/Button";
 
 const EducationItem = ({ id, educationItem, onChange, onDelete }) => {
@@ -16,7 +17,7 @@ const EducationItem = ({ id, educationItem, onChange, onDelete }) => {
         onChange={(e) => onChange(e, id)}
         type="text"
         name="city"
-        placeholder="City"
+        placeholder="City, Province"
         value={educationItem.city}
       />
       <Input
@@ -46,6 +47,13 @@ const EducationItem = ({ id, educationItem, onChange, onDelete }) => {
         name="to"
         placeholder="To"
         value={educationItem.to}
+      />
+      <TextArea
+        onChange={(e) => onChange(e, id)}
+        type="text"
+        name="description"
+        placeholder="Description"
+        value={educationItem.description}
       />
       <Button text="Delete" onClick={() => onDelete(id)}></Button>
     </>

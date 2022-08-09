@@ -62,7 +62,7 @@ const Personal = ({ personalInfo, onChange }) => {
       <TextArea
         onChange={(e) => onChange(e)}
         name="description"
-        placeholder="Description"
+        placeholder="Description (optional)"
         value={personalInfo.description}
       />
     </Section>
