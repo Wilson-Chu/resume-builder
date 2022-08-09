@@ -35,7 +35,7 @@ const Personal = ({ personalInfo, onChange }) => {
       <FileInput
         onChange={(e) => onChange(e)}
         name="photo"
-        label="Photo"
+        label="Photo (optional)"
         value={personalInfo.photo}
       />
       <Input
