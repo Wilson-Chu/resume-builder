@@ -15,21 +15,21 @@ const Personal = ({ personalInfo, onChange }) => {
         onChange={(e) => onChange(e)}
         type="text"
         name="firstName"
-        placeholder="First name"
+        placeholder="First Name"
         value={personalInfo.firstName}
       />
       <Input
         onChange={(e) => onChange(e)}
         type="text"
         name="lastName"
-        placeholder="Last name"
+        placeholder="Last Name"
         value={personalInfo.lastName}
       />
       <Input
         onChange={(e) => onChange(e)}
         type="text"
         name="title"
-        placeholder="Title"
+        placeholder="Job Title (optional)"
         value={personalInfo.title}
       />
       <FileInput
@@ -49,7 +49,7 @@ const Personal = ({ personalInfo, onChange }) => {
         onChange={(e) => onChange(e)}
         type="text"
         name="phoneNumber"
-        placeholder="Phone number"
+        placeholder="Phone Number"
         value={personalInfo.phoneNumber}
       />
       <Input
