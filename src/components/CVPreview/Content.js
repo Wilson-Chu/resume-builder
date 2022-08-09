@@ -15,9 +15,11 @@ const Content = ({ personalInfo, experience, education }) => {
 
   return (
     <ContentWrapper>
-      <Section title="Description" contrastTitle>
-        <Description>{personalInfo.description}</Description>
-      </Section>
+      {personalInfo.description && (
+        <Section title="Description" contrastTitle>
+          <Description>{personalInfo.description}</Description>
+        </Section>
+      )}
       <Section title="Experience" direction="column" contrastTitle>
         {experienceItems}
       </Section>

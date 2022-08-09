@@ -20,6 +20,7 @@ const exampleCV = {
       city: "",
       from: "",
       to: "",
+      description: "",
     },
   ],
   education: [
@@ -31,6 +32,7 @@ const exampleCV = {
       subject: "",
       from: "",
       to: "",
+      description: "",
     },
   ],
 };
