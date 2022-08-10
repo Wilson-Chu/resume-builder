@@ -4,12 +4,12 @@ import examplePhoto from "../../assets/empty_avatar.png";
 const exampleCV = {
   personalInfo: {
     firstName: "John",
-    lastName: "Doe",
-    title: "Senior Web Developer",
+    lastName: "Smith",
+    title: "Software Developer",
     photo: examplePhoto,
     // address: "Example Street 10",
     phoneNumber: "123456789",
-    email: "john.doe@gmail.com",
+    email: "john.smith@gmail.com",
     linkedIn: "www.linkedin.com",
     website: "www.wilsonchu.ca",
     description:
