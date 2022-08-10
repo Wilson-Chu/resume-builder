@@ -47,28 +47,28 @@ const Personal = ({ personalInfo, onChange }) => {
       /> */}
       <Input
         onChange={(e) => onChange(e)}
-        type="text"
+        type="tel"
         name="phoneNumber"
         placeholder="Phone Number"
         value={personalInfo.phoneNumber}
       />
       <Input
         onChange={(e) => onChange(e)}
-        type="text"
+        type="email"
         name="email"
         placeholder="Email"
         value={personalInfo.email}
       />
       <Input
         onChange={(e) => onChange(e)}
-        type="text"
-        name="linkedin"
+        type="url"
+        name="linkedIn"
         placeholder="LinkedIn"
         value={personalInfo.linkedIn}
       />
       <Input
         onChange={(e) => onChange(e)}
-        type="text"
+        type="url"
         name="website"
         placeholder="Website"
         value={personalInfo.website}

@@ -10,7 +10,7 @@ const exampleCV = {
     // address: "Example Street 10",
     phoneNumber: "123456789",
     email: "john.doe@gmail.com",
-    linkedIn: "wwww.linkedin.com",
+    linkedIn: "www.linkedin.com",
     website: "www.wilsonchu.ca",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus imperdiet nisl sed vestibulum. Donec gravida, nulla eget blandit fermentum, mauris nisi rutrum libero, ac pharetra erat est sit amet tellus.",
