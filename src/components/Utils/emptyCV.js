@@ -7,9 +7,11 @@ const exampleCV = {
     lastName: "",
     title: "",
     photo: emptyAvatar,
-    address: "",
+    // address: "",
     phoneNumber: "",
     email: "",
+    linkedIn: "",
+    website: "",
     description: "",
   },
   experience: [

@@ -38,13 +38,13 @@ const Personal = ({ personalInfo, onChange }) => {
         label="Photo (optional)"
         value={personalInfo.photo}
       />
-      <Input
+      {/* <Input
         onChange={(e) => onChange(e)}
         type="text"
         name="address"
         placeholder="Address"
         value={personalInfo.address}
-      />
+      /> */}
       <Input
         onChange={(e) => onChange(e)}
         type="text"
@@ -58,6 +58,20 @@ const Personal = ({ personalInfo, onChange }) => {
         name="email"
         placeholder="Email"
         value={personalInfo.email}
+      />
+      <Input
+        onChange={(e) => onChange(e)}
+        type="text"
+        name="linkedin"
+        placeholder="LinkedIn"
+        value={personalInfo.linkedIn}
+      />
+      <Input
+        onChange={(e) => onChange(e)}
+        type="text"
+        name="website"
+        placeholder="Website"
+        value={personalInfo.website}
       />
       <TextArea
         onChange={(e) => onChange(e)}

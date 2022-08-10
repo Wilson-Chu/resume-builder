@@ -8,9 +8,15 @@ const Sidebar = ({ personalInfo }) => {
     <SidebarWrapper>
       <Photo src={personalInfo.photo} />
       <Section title="Personal Details" contrastTitle direction="column">
-        <Subsection title="Address">{personalInfo.address}</Subsection>
+        {/* <Subsection title="Address">{personalInfo.address}</Subsection> */}
         <Subsection title="Phone Number">{personalInfo.phoneNumber}</Subsection>
         <Subsection title="Email">{personalInfo.email}</Subsection>
+        {personalInfo.linkedIn && (
+          <Subsection title="LinkedIn">{personalInfo.linkedIn}</Subsection>
+        )}{" "}
+        {personalInfo.website && (
+          <Subsection title="Website">{personalInfo.website}</Subsection>
+        )}{" "}
       </Section>
     </SidebarWrapper>
   );

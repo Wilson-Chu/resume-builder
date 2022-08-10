@@ -7,22 +7,23 @@ const exampleCV = {
     lastName: "Doe",
     title: "Senior Web Developer",
     photo: examplePhoto,
-    address: "Example Street 10",
+    // address: "Example Street 10",
     phoneNumber: "123456789",
     email: "john.doe@gmail.com",
+    linkedIn: "wwww.linkedin.com",
+    website: "www.wilsonchu.ca",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus imperdiet nisl sed vestibulum. Donec gravida, nulla eget blandit fermentum, mauris nisi rutrum libero, ac pharetra erat est sit amet tellus. Quisque fermentum dolor a interdum fermentum. Maecenas vehicula ac ipsum nec gravida. Integer quis porta turpis. Aenean et metus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus imperdiet nisl sed vestibulum. Donec gravida, nulla eget blandit fermentum, mauris nisi rutrum libero, ac pharetra erat est sit amet tellus.",
   },
   experience: [
     {
       id: uuidv4(),
-      position: "Senior Web Developer",
+      position: "Software Developer",
       company: "Facebook Inc.",
       city: "Menlo Park",
       from: "2015",
       to: "Present",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus imperdiet nisl sed vestibulum. Donec gravida, nulla eget blandit fermentum, mauris nisi rutrum libero, ac pharetra erat est sit amet tellus. Quisque fermentum dolor a interdum fermentum.",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       id: uuidv4(),
@@ -31,8 +32,7 @@ const exampleCV = {
       city: "Palo Alto",
       from: "2012",
       to: "2015",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus imperdiet nisl sed vestibulum. Donec gravida, nulla eget blandit fermentum, mauris nisi rutrum libero, ac pharetra erat est sit amet tellus. Quisque fermentum dolor a interdum fermentum.",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       id: uuidv4(),
@@ -41,17 +41,7 @@ const exampleCV = {
       city: "Mountain View",
       from: "2010",
       to: "2012",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus imperdiet nisl sed vestibulum. Donec gravida, nulla eget blandit fermentum, mauris nisi rutrum libero, ac pharetra erat est sit amet tellus. Quisque fermentum dolor a interdum fermentum.",
-    },
-    {
-      id: uuidv4(),
-      position: "Position",
-      company: "Company name",
-      city: "City name",
-      from: "From",
-      to: "To",
-      description: "Description",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
   ],
   education: [
@@ -64,16 +54,6 @@ const exampleCV = {
       from: "2012",
       to: "2017",
       description: "Specialization: Mechatronics; Minor: Mathematics",
-    },
-    {
-      id: uuidv4(),
-      universityName: "University name",
-      city: "City name",
-      degree: "",
-      subject: "",
-      from: "From",
-      to: "To",
-      description: "Description",
     },
   ],
 };
