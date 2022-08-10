@@ -6,6 +6,6 @@ Goal: make it good enough so that I can use it personally on job applications so
 
 # Start
 
-cd resume-builder
-npm install
-npm start
+- cd resume-builder
+- npm install
+- npm start
