@@ -11,7 +11,7 @@ const exampleCV = {
     email: "",
     linkedIn: "",
     website: "",
-    description: "",
+    objective: "",
   },
   experience: [
     {

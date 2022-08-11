@@ -15,9 +15,9 @@ const Content = ({ personalInfo, experience, education }) => {
 
   return (
     <ContentWrapper>
-      {personalInfo.description && (
-        <Section title="Description" contrastTitle>
-          <Description>{personalInfo.description}</Description>
+      {personalInfo.objective && (
+        <Section title="Objective" contrastTitle>
+          <Objective>{personalInfo.objective}</Objective>
         </Section>
       )}
       <Section title="Experience" direction="column" contrastTitle>
@@ -35,7 +35,7 @@ const ContentWrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.light};
 `;
 
-const Description = styled.div`
+const Objective = styled.div`
   font-style: italic;
 `;
 

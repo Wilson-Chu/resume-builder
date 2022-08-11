@@ -12,7 +12,7 @@ const exampleCV = {
     email: "john.smith@gmail.com",
     linkedIn: "www.linkedin.com",
     website: "www.wilsonchu.ca",
-    description:
+    objective:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus imperdiet nisl sed vestibulum. Donec gravida, nulla eget blandit fermentum, mauris nisi rutrum libero, ac pharetra erat est sit amet tellus.",
   },
   experience: [
