@@ -43,15 +43,6 @@ const exampleCV = {
       to: "2015",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
-    {
-      id: uuidv4(),
-      position: "UI / UX Designer",
-      company: "Google LLC",
-      city: "Mountain View",
-      from: "2010",
-      to: "2012",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
   ],
   education: [
     {
