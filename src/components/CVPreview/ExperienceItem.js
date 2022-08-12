@@ -6,12 +6,15 @@ const ExperienceItem = ({ experienceItem }) => {
   return (
     <ExperienceItemWrapper>
       <Period>
-        {experienceItem.from} - {experienceItem.to}
+        {experienceItem.from} {experienceItem.from && experienceItem.to && "-"}{" "}
+        {experienceItem.to}
       </Period>
       <Info>
         <Subsection title={experienceItem.position}>
           <div>
-            {experienceItem.company}, {experienceItem.city}
+            {experienceItem.company}
+            {experienceItem.company && experienceItem.city && ","}{" "}
+            {experienceItem.city}
           </div>
           <p>{experienceItem.description}</p>
         </Subsection>

@@ -9,14 +9,18 @@ const Sidebar = ({ personalInfo }) => {
       {personalInfo.photo && <Photo src={personalInfo.photo} />}
       <Section title="Personal Details" contrastTitle direction="column">
         {/* <Subsection title="Address">{personalInfo.address}</Subsection> */}
-        <Subsection title="Phone Number">
-          <a href={`tel:${personalInfo.phoneNumber}`}>
-            {personalInfo.phoneNumber}
-          </a>
-        </Subsection>
-        <Subsection title="Email">
-          <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a>
-        </Subsection>
+        {personalInfo.phoneNumber && (
+          <Subsection title="Phone Number">
+            <a href={`tel:${personalInfo.phoneNumber}`}>
+              {personalInfo.phoneNumber}
+            </a>
+          </Subsection>
+        )}
+        {personalInfo.email && (
+          <Subsection title="Email">
+            <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a>
+          </Subsection>
+        )}
         {personalInfo.linkedIn && (
           <Subsection title="LinkedIn">
             <a

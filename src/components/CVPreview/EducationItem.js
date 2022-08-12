@@ -6,14 +6,19 @@ const EducationItem = ({ educationItem }) => {
   return (
     <EducationItemWrapper>
       <Period>
-        {educationItem.from} - {educationItem.to}
+        {educationItem.from} {educationItem.from && educationItem.to && "-"}{" "}
+        {educationItem.to}
       </Period>
       <Info>
         <Subsection
-          title={`${educationItem.universityName}, ${educationItem.city}`}
+          title={`${educationItem.universityName}${
+            educationItem.universityName && educationItem.city && ","
+          } ${educationItem.city}`}
         >
           <p>
-            {educationItem.degree}, {educationItem.subject}
+            {educationItem.degree}
+            {educationItem.degree && educationItem.subject && ","}{" "}
+            {educationItem.subject}
           </p>
           <p>{educationItem.description}</p>
         </Subsection>
