@@ -185,7 +185,7 @@ const Main = () => {
       <CVForm
         cv={cv}
         onChangePersonal={handleChangePersonal}
-        onChangeEProjects={handleChangeProjects}
+        onChangeProjects={handleChangeProjects}
         onAddProjects={handleAddProjects}
         onDeleteProjects={handleDeleteProjects}
         onChangeExperience={handleChangeExperience}
