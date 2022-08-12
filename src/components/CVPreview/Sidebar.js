@@ -49,12 +49,12 @@ const Sidebar = ({ personalInfo }) => {
 };
 
 const SidebarWrapper = styled.div`
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: ${({ theme }) => theme.colors.lightSecondary};
 `;
 
 const Photo = styled.img`
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 `;
 
 export default Sidebar;

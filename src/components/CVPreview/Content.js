@@ -39,7 +39,7 @@ const Content = ({ personalInfo, projects, experience, education }) => {
 };
 
 const ContentWrapper = styled.div`
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: ${({ theme }) => theme.colors.light};
 `;
 

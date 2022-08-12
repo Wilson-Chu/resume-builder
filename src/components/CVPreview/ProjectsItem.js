@@ -23,13 +23,13 @@ const ProjectsItemWrapper = styled.div`
 `;
 
 const Period = styled.div`
-  width: 25%;
+  width: 20%;
   font-weight: bold;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 `;
 
 const Info = styled.div`
-  width: 75%;
+  width: 80%;
 `;
 
 export default ProjectsItem;
