@@ -8,7 +8,7 @@ const Projects = ({ projects, onChange, onAdd, onDelete }) => {
     <ProjectsItem
       key={projectsItem.id}
       id={projectsItem.id}
-      educationItem={projectsItem}
+      projectsItem={projectsItem}
       onChange={onChange}
       onDelete={onDelete}
     ></ProjectsItem>

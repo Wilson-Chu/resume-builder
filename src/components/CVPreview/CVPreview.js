@@ -15,6 +15,7 @@ class CVPreview extends Component {
         <Header personalInfo={cv.personalInfo} />
         <Content
           personalInfo={cv.personalInfo}
+          projects={cv.projects}
           experience={cv.experience}
           education={cv.education}
         />

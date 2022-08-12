@@ -45,6 +45,45 @@ const Main = () => {
     reader.readAsDataURL(file);
   };
 
+  const handleChangeProjects = (e, id) => {
+    const { name, value } = e.target;
+
+    setCv((prevState) => {
+      const newProjects = prevState.projects.map((projectsItem) => {
+        if (projectsItem.id === id) {
+          return { ...projectsItem, [name]: value };
+        }
+        return projectsItem;
+      });
+      return { ...prevState, projects: [...newProjects] };
+    });
+  };
+
+  const handleAddProjects = () => {
+    setCv((prevState) => ({
+      ...prevState,
+      projects: [
+        ...prevState.projects,
+        {
+          id: uuidv4(),
+          projectTitle: "",
+          from: "",
+          to: "",
+          description: "",
+        },
+      ],
+    }));
+  };
+
+  const handleDeleteProjects = (id) => {
+    setCv((prevState) => {
+      const newProjects = prevState.projects.filter(
+        (projectsItem) => projectsItem.id !== id
+      );
+      return { ...prevState, projects: [...newProjects] };
+    });
+  };
+
   const handleChangeExperience = (e, id) => {
     const { name, value } = e.target;
 
@@ -146,6 +185,9 @@ const Main = () => {
       <CVForm
         cv={cv}
         onChangePersonal={handleChangePersonal}
+        onChangeEProjects={handleChangeProjects}
+        onAddProjects={handleAddProjects}
+        onDeleteProjects={handleDeleteProjects}
         onChangeExperience={handleChangeExperience}
         onAddExperience={handleAddExperience}
         onDeleteExperience={handleDeleteExperience}

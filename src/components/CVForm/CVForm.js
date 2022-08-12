@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Personal from "./Personal";
+import Projects from "./Projects";
 import Education from "./Education";
 import Experience from "./Experience";
 import Button from "../Utils/Button";
@@ -8,6 +9,9 @@ import Button from "../Utils/Button";
 const CVForm = ({
   cv,
   onChangePersonal,
+  onChangeProjects,
+  onAddProjects,
+  onDeleteProjects,
   onChangeExperience,
   onAddExperience,
   onDeleteExperience,
@@ -21,6 +25,12 @@ const CVForm = ({
   return (
     <CVFormWrapper>
       <Personal personalInfo={cv.personalInfo} onChange={onChangePersonal} />
+      <Projects
+        projects={cv.projects}
+        onChange={onChangeProjects}
+        onAdd={onAddProjects}
+        onDelete={onDeleteProjects}
+      />
       <Experience
         experience={cv.experience}
         onChange={onChangeExperience}

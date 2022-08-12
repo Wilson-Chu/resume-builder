@@ -1,10 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import ProjectsItem from "./ProjectsItem";
 import ExperienceItem from "./ExperienceItem";
 import EducationItem from "./EducationItem";
 import Section from "../Utils/Section";
 
-const Content = ({ personalInfo, experience, education }) => {
+const Content = ({ personalInfo, projects, experience, education }) => {
+  const projectsItems = projects.map((projectsItem) => (
+    <ProjectsItem key={projectsItem.id} projectsItem={projectsItem} />
+  ));
+
   const experienceItems = experience.map((experienceItem) => (
     <ExperienceItem key={experienceItem.id} experienceItem={experienceItem} />
   ));
@@ -20,6 +25,9 @@ const Content = ({ personalInfo, experience, education }) => {
           <Objective>{personalInfo.objective}</Objective>
         </Section>
       )}
+      <Section title="Projects" direction="column" contrastTitle>
+        {projectsItems}
+      </Section>
       <Section title="Experience" direction="column" contrastTitle>
         {experienceItems}
       </Section>

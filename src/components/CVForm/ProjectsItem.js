@@ -11,7 +11,7 @@ const ProjectsItem = ({ id, projectsItem, onChange, onDelete }) => {
         type="text"
         name="projectTitle"
         placeholder="Project Title"
-        value={projectsItem.title}
+        value={projectsItem.projectTitle}
       />
       <Input
         onChange={(e) => onChange(e, id)}
