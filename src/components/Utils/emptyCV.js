@@ -13,6 +13,15 @@ const exampleCV = {
     website: "",
     objective: "",
   },
+  projects: [
+    {
+      id: uuidv4(),
+      projectTitle: "",
+      from: "",
+      to: "",
+      description: "",
+    },
+  ],
   experience: [
     {
       id: uuidv4(),

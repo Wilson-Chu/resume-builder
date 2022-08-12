@@ -15,6 +15,15 @@ const exampleCV = {
     objective:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus imperdiet nisl sed vestibulum. Donec gravida, nulla eget blandit fermentum, mauris nisi rutrum libero, ac pharetra erat est sit amet tellus.",
   },
+  projects: [
+    {
+      id: uuidv4(),
+      projectTitle: "Resume Builder",
+      from: "2021",
+      to: "2022",
+      description: "Generated this resume you're seeing!",
+    },
+  ],
   experience: [
     {
       id: uuidv4(),
@@ -47,7 +56,8 @@ const exampleCV = {
   education: [
     {
       id: uuidv4(),
-      universityName: "Toronto Metropolitan University (formerly Ryerson University)",
+      universityName:
+        "Toronto Metropolitan University (formerly Ryerson University)",
       city: "Toronto, ON",
       degree: "BEng",
       subject: "Mechanical Engineering",
