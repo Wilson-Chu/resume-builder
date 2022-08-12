@@ -19,14 +19,22 @@ const Sidebar = ({ personalInfo }) => {
         </Subsection>
         {personalInfo.linkedIn && (
           <Subsection title="LinkedIn">
-            <a href={`https://${personalInfo.linkedIn}`}>
+            <a
+              href={`https://${personalInfo.linkedIn}`}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               {personalInfo.linkedIn}
             </a>
           </Subsection>
         )}{" "}
         {personalInfo.website && (
           <Subsection title="Website">
-            <a href={`https://${personalInfo.website}`}>
+            <a
+              href={`https://${personalInfo.website}`}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               {personalInfo.website}
             </a>
           </Subsection>
