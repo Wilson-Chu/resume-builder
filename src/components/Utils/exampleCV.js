@@ -47,7 +47,7 @@ const exampleCV = {
   education: [
     {
       id: uuidv4(),
-      universityName: "Toronto Metropolitan University (formerly Ryerson)",
+      universityName: "Toronto Metropolitan University (formerly Ryerson University)",
       city: "Toronto, ON",
       degree: "BEng",
       subject: "Mechanical Engineering",
