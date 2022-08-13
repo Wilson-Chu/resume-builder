@@ -6,11 +6,11 @@ Fills a neat, simple resume template with user-defined information, with an opti
 
 ## Google Chrome:
 
-- printing to PDF may cause unnecessary second page to appear; can be resolved by only choosing to save Page 1 on popup
+- printing to PDF may cause unnecessary extra page to appear; can be resolved by only choosing to save the relevant pages on popup
 
 ## Mozilla Firefox:
 
-- printing to PDF may cause unnecessary second page to appear and most content shifted to this second page; resolution pending
+- printing to PDF may cause unnecessary extra page to appear and most content shifted to this extra page; resolution pending
 - printing to PDF will not show certain styles seen in the Preview (most colours and shading will be missing); resolution pending
 
 # Built with:
