@@ -22,7 +22,7 @@ const exampleCV = {
       from: "",
       to: "2022",
       description:
-        "A fullstack MERN project. Likely to be a fully-functioning dashboard or bug tracking system. Technologies used: MongoDB, Express, ReactJS, NodeJS",
+        "A fully-functional project management platform with Authorization sign-in. Technologies used: MongoDB, Express, ReactJS, NodeJS, Auth0",
     },
     {
       id: uuidv4(),

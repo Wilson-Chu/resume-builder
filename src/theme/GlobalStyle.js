@@ -11,8 +11,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html {
-    font-size: 62.5%;
-    line-height: 1.6;
+    font-size: 60%;
+    line-height: 1.3;
     /* Footer support */
     position: relative;
     min-height: 100%;
@@ -35,7 +35,7 @@ const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    line-height: 1.2;
+    line-height: 1.1;
   }
 
   a {

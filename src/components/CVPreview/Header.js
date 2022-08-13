@@ -16,7 +16,7 @@ const CVHeader = ({ personalInfo }) => {
 
 const CVHeaderWrapper = styled.header`
   grid-column: span 2;
-  padding: 1.5rem;
+  padding: 2rem;
   background-color: ${({ theme }) => theme.colors.blue};
   color: ${({ theme }) => theme.colors.light};
 `;

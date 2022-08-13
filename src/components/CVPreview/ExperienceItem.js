@@ -30,7 +30,7 @@ const ExperienceItemWrapper = styled.div`
 const Period = styled.div`
   width: 20%;
   font-weight: bold;
-  margin-right: 1.5rem;
+  margin-right: 1.3rem;
 `;
 
 const Info = styled.div`

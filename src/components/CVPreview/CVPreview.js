@@ -28,12 +28,12 @@ class CVPreview extends Component {
 export default CVPreview;
 
 const CVPreviewWrapper = styled.div`
-  width: 210mm;
-  height: 297mm;
+  width: 215mm;
+  height: 295mm; // One Letter-size page = 279mm
   position: sticky;
   top: 10px;
   display: grid;
-  grid-template-columns: 150mm 60mm;
+  grid-template-columns: 162mm 53mm;
   grid-template-rows: 35mm 262mm;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;
