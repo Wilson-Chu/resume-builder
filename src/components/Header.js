@@ -25,7 +25,7 @@ const HeaderWrapper = styled.div`
   color: ${({ theme }) => theme.colors.light};
   font-size: 2.2rem;
 
-  @media (max-width: 1600px) {
+  @media (max-width: 1500px) {
     justify-content: center;
   }
 `;
