@@ -215,7 +215,7 @@ const MainWrapper = styled.main`
   margin: 0 auto;
   margin-bottom: 4rem;
 
-  @media (max-width: 1550px) {
+  @media (max-width: 1400px) {
     flex-direction: column;
     align-items: center;
   }
