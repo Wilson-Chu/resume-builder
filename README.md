@@ -1,6 +1,6 @@
 # resume-builder
 
-Fills a neat, simple resume template with user-defined information, with an option to print/save to PDF. ATS-friendly.
+Fills a clear, simple resume template with user-defined information, with an option to print/save to PDF. ATS-friendly.
 
 # Known issues:
 
