@@ -17,7 +17,7 @@ Fills a clear, simple resume template with user-defined information. Includes op
 
 - ReactJS
 - Styled Components
-- react icons (https://www.npmjs.com/package/react-icons)
+- React Icons (https://www.npmjs.com/package/react-icons)
 - ReactToPrint (https://www.npmjs.com/package/react-to-print)
 - uuid for sample key ids (https://www.npmjs.com/package/uuid)
 
