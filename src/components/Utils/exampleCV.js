@@ -38,7 +38,7 @@ const exampleCV = {
       from: "",
       to: "2022",
       description:
-        "A responsive Portfolio page used to market myself to cool employers like you. Technologies used: ReactJS with Higher-Order Components, Sanity CMS, Formspree API, Netlify",
+        "A responsive Portfolio page used to market myself to cool employers like you! :) Technologies used: ReactJS with Higher-Order Components, Sanity CMS, Formspree API, Netlify",
     },
   ],
   experience: [
@@ -47,7 +47,7 @@ const exampleCV = {
       position: "Software Developer",
       company: "Your Company Here",
       city: "Anywhere",
-      from: "2022",
+      from: "2023",
       to: "Present",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. If you got this far, thank you for taking the time to look at my projects!",
